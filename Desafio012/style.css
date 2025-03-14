@@ -61,7 +61,7 @@ article {
     background-color: white;
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: right center;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -70,7 +70,7 @@ article {
     background-color: white;
     background-image: url(imagens/background002.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right center;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -85,7 +85,7 @@ p.fundofume {
     background-color: rgba(0, 0, 0, 0.449);
     background-size: auto;
     color: white;
-    width: 30vw;
+    display: inline-block;
     padding-left: 20px;
     text-align: left;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.241);
