@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* estilos para telas */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: lightgrey;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: rgb(85, 85, 85);
+}
+
+menu li {
+    background-color: rgba(0, 234, 255, 0.721);
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
+    background-color: rgba(0, 215, 215, 0.701);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.421);
+    border-radius: 0px 0px 10px 10px;
+}
+
+article > h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+    padding: 15px;
+    margin: 0px 10px 0px 10px;
+}
