@@ -56,12 +56,10 @@ menu > ul > li > a {
 
 menu > ul > li > a:hover {
     background-color: gray;
-    border-top: 2px solid rgb(81, 81, 81);
 }
 
 main {
     width: 90vw;
-    max-width: 900px;
     background-color: white;
     margin: auto;
     border-radius: 10px;
